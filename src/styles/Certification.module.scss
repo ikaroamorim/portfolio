@@ -1,0 +1,74 @@
+@import './variables';
+
+.certificatesPageContainer {
+   display       : flex;
+   flex-direction: column;
+   align-items   : center;
+
+   h2 {
+      font-size      : 2rem;
+      text-decoration: underline;
+      margin         : 2rem 0;
+   }
+
+   .certifcatesContainer,
+   .coursesContainer {
+      display: block;
+      width  : 70%;
+
+
+      .certificateItem {
+         display: flex;
+         margin : 2rem 0;
+
+
+         .imgContainer {
+            flex-shrink : 0;
+            position    : relative;
+            width       : 250px;
+            height      : 150px;
+            margin-right: 1.5rem;
+         }
+      }
+   }
+}
+
+@media screen and (max-width: $screen-size-xs) {
+   .certificatesPageContainer {
+      h2 {
+         font-size: 1.5rem;
+         margin   : 1.5rem 0;
+      }
+
+      .certifcatesContainer,
+      .coursesContainer {
+         width  : 90%;
+
+         h3{
+            font-size: 0.875rem;
+         }
+         h4{
+            font-size: 0.75rem;
+         }
+         p{
+            font-size: 0.625rem;
+         }
+
+         .certificateItem {
+            margin : 1.25rem 0;
+
+            .textContainer{
+               flex-grow: 1;
+            }
+   
+   
+            .imgContainer {
+               position    : relative;
+               width       : 150px;
+               height      : 90px;
+               margin-right: 0.75rem;
+            }
+         }
+      }
+   }
+}

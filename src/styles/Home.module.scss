@@ -1,0 +1,119 @@
+@import './variables';
+
+.container {
+  padding: 0 2rem;
+  display: flex;
+  height : 100%;
+}
+
+.main {
+  min-height     : 100%;
+  padding        : 4rem 0;
+  display        : flex;
+  flex           : 1;
+  flex-direction : row;
+  justify-content: space-around;
+  align-items    : center;
+
+  .authorImage {
+    position  : relative;
+    height    : 25vw;
+    max-height: 400px;
+    width     : 25vw;
+    max-width : 400px;
+  }
+
+  .mobileauthorImage {
+    position: relative;
+    height  : 25vw;
+    width   : 25vw;
+    margin  : auto;
+    display : none;
+  }
+
+  .homeImage {
+    border-radius: 50%;
+  }
+
+  .cardBio {
+    padding         : 1.5rem;
+    width           : 50%;
+    max-height      : 75vh;
+    overflow-y      : auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius   : 20px;
+
+    p{
+      text-indent: 1.5rem;
+      text-align: justify;
+    };
+
+    a {
+      color          : $theme-selectedItem;
+      transition     : 0.4s color ease-in-out;
+
+      &:visited {
+        color: $theme-color3;
+      }
+
+      &:hover {
+        color: $theme-color1;
+      }
+    }
+
+
+    .bioSocialNetwork {
+      display        : flex;
+      justify-content: flex-end;
+      font-size      : 1.5rem;
+      gap            : 0.625rem;
+
+      a {
+        padding      : 0.625rem;
+        border-radius: 50%;
+        transition   : background-color 0.8s ease-in-out;
+
+        svg {
+          display: block;
+          margin : auto;
+        }
+
+        &:hover {
+          background-color: $theme-emphasis;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $screen-size-xs) {
+  .authorImage {
+    display: none;
+  }
+
+  .mobileauthorImage {
+    display: block !important;
+  }
+
+  .cardBio {
+    width: 95% !important;
+  }
+}
+
+
+.code {
+  background   : #fafafa;
+  border-radius: 5px;
+  padding      : 0.75rem;
+  font-size    : 1.1rem;
+  font-family  : Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+
+@media (max-width: 600px) {
+  .grid {
+    width         : 100%;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,53 @@
+{
+   "pt":[{
+         "image": {
+            "logoUrl": "/images/experience/capgemini-logo.png",
+            "logoAlt": "Logotipo Capgemini"
+         },
+         "empresa": "Capgemini",
+         "cargo": "Desenvolvedor",
+         "periodo": "Setembro/2021 - Atual",
+         "descricao": "• Desenvolvimento para Sharepoint On Premise. <br /> • Integração com Add-ins .Net.<br /> • Realização de atividades de deploy e gestão  com Powershell/ Sharepoint Management Shell.<br /> • Migração de versão de versões de Sharepoint.<br />"
+      },
+      {
+         "image": {
+            "logoUrl": "/images/experience/class-logo.png",
+            "logoAlt": "Logotipo Class Solution"
+         },
+         "empresa": "Class Solutions",
+         "cargo": "Desenvolvedor Front-End",
+         "periodo": "Janeiro/2021 - Setembro/2021",
+         "descricao": "• Desenvolvimento de aplicações com Sharepoint Framework (SPFX). <br /> • Manutenção e melhoria de aplicações já desenvolvidas. <br /> • Desenvolvimento com os padrões e melhores práticas React/Microsoft.<br /> • Utilização de Typescript e versionamento Git.<br />"
+      },
+      {
+         "image": {
+            "logoUrl": "/images/experience/class-logo.png",
+            "logoAlt": "Logotipo Class Solution"
+         },
+         "empresa": "Class Solutions",
+         "cargo": "Analista de Suporte e Infraestrutura",
+         "periodo": "Fevereiro/2018 - Dezembro 2021",
+         "descricao": "• Gerenciamento e atendimento de chamados em atendimento B2B, em soluções customizadas ou não, relacionadas a todos Workloads do Office 365.<br /> • Administração de Farm (Windows Server, SQL Server, Sharepoint Server em servidores Locais ou na Nuvem), e administração de Tenant Office 365. <br /> • Elaboração de soluções em Sharepoint, Teams, One Drive e auxílio na adoção.<br /> • Implementação (Deploy) e Migração de Sistemas Sharepoint.<br /> • Construção de relacionamento com cliente."
+      },
+      {
+         "image": {
+            "logoUrl": "/images/experience/people-logo.png",
+            "logoAlt": "Logotipo People"
+         },
+         "empresa": "People - Educação Completa",
+         "cargo": "Professor",
+         "periodo": "Janeiro/2017 - Julho/2017",
+         "descricao": "• Elaboração de planos de aula e ementa dos cursos.<br /> • Aulas de SOLIDWORKS, Autodesk AutoCAD, Autodesk Revit, SkecthUP <br /> • Manutenção de computadores e Aulas de Robótica (Arduino e MRT Maker)<br /> • Aulas de Windows, Word, Excel, Powerpoint, Html e CSS"
+      },
+      {
+         "image": {
+            "logoUrl": "/images/experience/siemens-logo.png",
+            "logoAlt": "Logotipo Siemens"
+         },
+         "empresa": "Siemens",
+         "cargo": "Estágio em Qualidade e Processos",
+         "periodo": "Janeiro/2014 a Dezembro/2015",
+         "descricao": "• Coordenação o programa de Melhoria Contínua para atendimento de metas de custo e lead time do produto, participando de vários processos de melhoria e reuniões internacionais.<br /> • Automação das rotinas através de planilhas e macros VBA para agilizar processos recorrentes e promover melhor fluxo de dados.<br /> • Realização de reuniões periódicas com representantes de outras áreas para tratativa, priorização e administração dos custos de não conformidades.<br /> • Análise e tomada de ação baseada nos registros dos formulários de ocorrências de EHS, possibilitando a tomada de decisão gerencial por políticas mais seguras.<br /> • Gerenciamento de equipe na área de recebimento de matéria prima, atuando na priorização dos itens a serem inspecionados para atendimento às urgências e na obtenção de informações técnicas para a equipe.<br /> • Atendimento e suporte as visitas técnicas de clientes à fábrica para acompanhamento  e aprovação de ensaios mecânicos e análise da documentação para finalizar o processo e entregar os produtos."
+      }],
+   "en": {}
+}

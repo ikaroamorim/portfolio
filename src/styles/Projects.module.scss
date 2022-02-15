@@ -1,0 +1,29 @@
+@import './variables';
+
+.ProjectMain {
+   padding: 0 4%;
+
+   h2{
+      font-size: 3rem;
+      text-decoration: underline;
+   }
+
+   .ProjectsContainer {
+      display  : flex;
+      flex-wrap: wrap;
+      gap      : 2rem;
+   }
+}
+
+@media screen and (max-width: $screen-size-xs) {
+
+   .ProjectMain {
+      h2{
+         text-align: center;
+      }
+
+      .ProjectsContainer {
+         justify-content: center;
+      }
+   }
+}

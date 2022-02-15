@@ -1,0 +1,52 @@
+@import './variables';
+
+.mainContent {
+   max-width: 1024px;
+   margin   : 0 auto;
+
+   text-align: center;
+
+   h3 {
+      text-align: right;
+   }
+
+   .textContainer {
+      p {
+         text-align : justify;
+         text-indent: 2rem;
+         font-size  : 1.5rem;
+      }
+
+      a{
+         text-decoration: underline;
+         color: $theme-selectedItem;
+         transition: 0.4s color ease-in-out;
+
+         &:visited{
+            color: $theme-color3;
+         }
+
+         &:hover{
+            color: $theme-color1;
+         }
+
+         
+      }
+   }
+
+   .imageContainer {
+      position      : relative;
+      width         : 100%;
+      padding-bottom: 62.5%;
+   }
+}
+
+@media screen and (max-width: $screen-size-xs) {
+   .mainContent {
+      padding: 0 2%;
+
+      iframe {
+         width: 100%;
+      }
+   }
+}

@@ -1,0 +1,32 @@
+[
+	{
+		"id": 2,
+		"url": "subindo-aplicacao-node-postgre",
+		"stack": "Node",
+		"imageUrl": "/images/contents/postgree.webp",
+		"imageAlt": "Imagem do conteúdo",
+		"videoId": null,
+		"site": "https://stackabuse.com/adding-a-postgresql-database-to-a-node-js-app-on-heroku/",
+		"ptTitle": "Criando aplicação Node Js com PostgreSQL no Heroku",
+		"ptDescription": "<p>Para elaboração desse portfolio eu queria criar uma aplicação com Next.js, para poder ter os recursos de SSG (Static Site Generation) e também queria trazer um banco que correspondesse a algum SGBD sólido, saindo dos Json server e o do Firebase que foi utilizado em outros projetos. </p><p> Com isso foi escolhido o postgree para compor esse projeto, como no Heroku já existe o suporte para essa tecnologia, isso facilitou o processo. </p><p> A matéria que está linkada a esse conteúdo tras o exemplo de aplicação de um encurtador de urls, porém foi o sufuciente para orientar na subida dessa aplicação integrada com o banco de dados. Como ponto de atenção eu gostaria de destacar que no arquivo configconfig.json as opções dialectOptions permitiram a correção do erro que ocorria ao tentar acessar o banco no pg_hba.conf entry for host </p>",
+		"enTitle": null,
+		"enDescription": null,
+		"createdAt": "2022-02-06T02:57:24.485Z",
+		"updatedAt": "2022-02-06T03:02:30.756Z"
+	},
+	{
+		"id": 1,
+		"url": "o-que-e-clrf",
+		"stack": "Outros",
+		"imageUrl": "https://img.youtube.com/vi/TtiBhktB4Qg/0.jpg",
+		"imageAlt": "Imagem do vídeo",
+		"videoId": "TtiBhktB4Qg",
+		"site": "https://www.youtube.com/watch?v=TtiBhktB4Qg",
+		"ptTitle": "O que é CRLF, LF ou CR?",
+		"ptDescription": "<p>Trago nessa página um vídeo que assisti. </p><p> Em várias situações a gente se depara com CLRF, CL  e RF. E por vezes a gente não sabe do que se trata, ignorando o assunto e seguindo em frente. </p><p> Esse vídeo explica muito bem, trazendo até um contexto histórico da origem desses termos e utilização deles. Aborda também a utilização e impacto dele em sistema e abre o binário dos arquivos pode-se ver o que reprensenta isso dentro do arquivo.",
+		"enTitle": null,
+		"enDescription": null,
+		"createdAt": "2022-02-06T01:53:46.541Z",
+		"updatedAt": "2022-02-06T03:03:26.529Z"
+	}
+]

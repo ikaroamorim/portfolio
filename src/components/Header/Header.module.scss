@@ -1,0 +1,84 @@
+@import '../../styles/variables';
+
+.main {
+   width          : 100%;
+   padding        : 0 2%;
+   display        : flex;
+   flex-direction : row;
+   flex           : 0;
+   justify-content: space-between;
+   align-items    : center;
+
+   ul {
+      display        : flex;
+      flex-wrap      : wrap;
+      flex-direction : row;
+      list-style-type: none;
+
+
+      li {
+         padding        : 0.3125rem 0.625rem;
+         text-decoration: none;
+         border-radius  : 1rem;
+         transition     : background-color 0.8s ease-in-out;
+
+         a{
+            display: block;
+            margin: auto;
+
+            &.active{
+               color: $theme-selectedItem;
+               font-weight: bold;
+
+               svg{
+                  fill: $theme-selectedItem;
+               }
+            }
+         }
+
+         &:hover {
+            background-color: $theme-emphasis;
+         }
+      }
+   }
+
+   .mobileHeaderMenu {
+      display: none;
+   }
+}
+
+
+@media screen and (max-width: $screen-size-xs) {
+   .main {
+      justify-content: center;
+
+      h1 {
+         display: none;
+      }
+
+      .desktopHeaderMenu {
+         display: none;
+      }
+
+      .mobileHeaderMenu {
+         display  : flex;
+         font-size: 1.25em;
+         padding  : 0;
+         margin   : 0.5rem;
+      }
+
+   }
+}
+
+@media screen and (min-width: $screen-size-lg) {
+   .main{
+      h1 a{
+         font-size: 2rem;
+      }
+
+      ul a{
+         font-size: 1.25rem;
+      }
+   }
+}
+

@@ -1,0 +1,53 @@
+@import '../../styles/variables';
+.mainCard {
+   margin : 20px;
+   display: block;
+   width  : 320px;
+   min-height : 280px;
+
+   &.highlighted {
+      width : 480px;
+      min-height: 400px;
+   }
+
+   .stackContainer {
+      font-size     : 0.75rem;
+      text-transform: uppercase;
+      padding       : 0.25rem 0;
+   }
+
+   .imageContainer {
+      width         : 100%;
+      padding-bottom: 56.25%;
+      position      : relative;
+   }
+
+   .titleContainer {
+      &.highlighted {
+         h3 {font-size: 1.625rem;}
+      }
+
+      p {
+         margin    : 0;
+         text-align: right;
+      }
+
+      h3 {
+         margin: 0.75rem 0;
+      }
+   
+   }
+   @media screen and (max-width: $screen-size-xs) {
+      &.highlighted {
+         width  : 320px;
+         min-height : 280px;
+      }
+
+      .titleContainer {
+         &.highlighted {
+            h3 {font-size: large;}
+         }
+      }
+   }
+}
+

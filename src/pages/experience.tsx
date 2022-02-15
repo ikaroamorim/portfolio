@@ -83,7 +83,7 @@ const Experience: NextPage = () => {
             <meta name="og:description" content="Trajetória Profissional" />
             <meta name='twitter:description' content='Experiência Profissional' />
 
-            <meta property='og:url' content='https://portifolio-mu.vercel.app/'/>
+            <meta property='og:url' content='https://portfolio-ikaroamorim.vercel.app/'/>
             <meta property='og:type' content='website'/>
 
          </Head>

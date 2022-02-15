@@ -40,7 +40,7 @@ const Projects = (props: IprojectProps) => {
             <meta name='og:description' content='Projetos desenvolvidos pelo autor' />
             <meta name='twitter:description' content='Projetos desenvolvidos pelo autor' />
 
-            <meta property='og:url' content='https://portifolio-mu.vercel.app/'/>
+            <meta property='og:url' content='https://portfolio-ikaroamorim.vercel.app/'/>
             <meta property='og:type' content='website'/>
 
          </Head>

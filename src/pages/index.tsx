@@ -22,7 +22,7 @@ const Home: NextPage = () => {
         <meta name='og:description' content='Breve descrição do autor.'/>
         <meta name='twitter:description' content='Portfolio - Home' />
 
-        <meta property='og:url' content='https://portifolio-mu.vercel.app/' />
+        <meta property='og:url' content='https://portfolio-ikaroamorim.vercel.app/' />
         <meta property='og:type' content='website' />
 
       </Head>

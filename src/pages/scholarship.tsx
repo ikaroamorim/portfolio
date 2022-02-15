@@ -22,7 +22,7 @@ const Scholarship: NextPage = () => {
             <meta name='og:description' content='Educação formal do Autor' />
             <meta name='twitter:description' content='Educação Formal' />
 
-            <meta property='og:url' content='https://portifolio-mu.vercel.app/'/>
+            <meta property='og:url' content='https://portfolio-ikaroamorim.vercel.app/'/>
             <meta property='og:type' content='website'/>
 
          </Head>

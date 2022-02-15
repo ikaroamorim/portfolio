@@ -28,7 +28,7 @@ const Contents = (props: IContentResponse) => {
             <meta name='og:description' content='Conteúdos e Mídia' />
             <meta name='twitter:description' content='Conteúdo e mídia' />
 
-            <meta property='og:url' content='https://portifolio-mu.vercel.app/'/>
+            <meta property='og:url' content='https://portfolio-ikaroamorim.vercel.app/'/>
             <meta property='og:type' content='website'/>
 
          </Head>

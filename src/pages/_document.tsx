@@ -9,13 +9,13 @@ class MyDocument extends Document {
             <Head>
                <link rel='icon' href='/favicon.ico' />
                <meta name='description' content='Site de portifólio do Desenvolvedor Ikaro Amorim e Silva, além dos seus aprendizados também busco compartilhar as experiências que tive na minha jornada.' />
-               <link rel='canonical' href='https://portifolio-mu.vercel.app/' />
+               <link rel='canonical' href='https://portfolio-ikaroamorim.vercel.app/' />
                <meta name='robots' content='index, follow' />
-               <meta property='og:image' content='https://portifolio-mu.vercel.app/ikaroamorim.png' />
+               <meta property='og:image' content='https://portfolio-ikaroamorim.vercel.app/ikaroamorim.png' />
                <meta property='og:image:type' content='image/png' />
                <meta property='og:image:width' content='460' />
                <meta property='og:image:height' content='460' />
-               <meta name='twitter:image' content='https://portifolio-mu.vercel.app/ikaroamorim.png' />
+               <meta name='twitter:image' content='https://portfolio-ikaroamorim.vercel.app/ikaroamorim.png' />
                <meta name='twitter:image:type' content='image/png' />
                <meta name='twitter:image:width' content='460' />
                <meta name='twitter:image:height' content='460' />

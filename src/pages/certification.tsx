@@ -19,7 +19,7 @@ const Certification: NextPage = () => {
             <meta name='og:description' content='Certificações e Cursos' />
             <meta name='twitter:description' content='Certificações e Cursos' />
 
-            <meta property='og:url' content='https://portifolio-mu.vercel.app/'/>
+            <meta property='og:url' content='https://portfolio-ikaroamorim.vercel.app/'/>
             <meta property='og:type' content='website'/>
 
          </Head>

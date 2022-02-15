@@ -38,7 +38,7 @@ export default function Content(props: IContentResponse) {
             <meta property='og:description'content={props.contents[0].ptTitle}/>
             <meta name='twitter:description'content={props.contents[0].ptTitle}/>
 
-            <meta property='og:url' content={`https://portifolio-mu.vercel.app/${props.contents[0].url}`}/>
+            <meta property='og:url' content={`https://portfolio-ikaroamorim.vercel.app/${props.contents[0].url}`}/>
             <meta property='og:type' content='article'/>
          </Head>
 
